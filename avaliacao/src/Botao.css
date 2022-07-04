@@ -1,8 +1,26 @@
-.botoes{
-    border-radius: 35px;
-    padding: 5px;
-    color: #c0c0c0ea;
+.botao1{
     background-color: #FFF;
-    color:#000;
-    cursor: pointer;
+    color: red;
+    border: none;
+    border-radius: 100px;
+}
+.botao2{
+    background-color: red;
+    color: #FFF;
+    border: none;
+    border-radius: 100px;
+}
+
+.botao1:hover{
+    color: #EA1D2C;
+    background-color: #EEE;
+}
+
+.botao2:hover{
+    color: #EEE;
+    background-color: #EA1D2C;
+}
+
+.osdois{
+    margin-left: 1100px;
 }

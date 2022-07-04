@@ -2,6 +2,7 @@ import Logo from "./Logo";
 import Painel from "./Painel";
 import Botao from "./Botao";
 import Lanches from "./Lanches";
+import Titulo from "./Titulo";
 function App(){
   const logo = [
     {
@@ -27,6 +28,12 @@ function App(){
       bot1: "Criar conta",
       bot2: "Entrar",
     },
+  ]
+
+  const titulo = [
+    {
+      title: "Destaques"
+    }
   ]
   const informacoes = [
     {
@@ -89,6 +96,15 @@ function App(){
         }
         </div>
 
+        <div className="destaque">
+          {titulo.map((nove, dez) => {
+            return <Titulo key={dez}
+                    title={nove.title}
+                    />
+        })
+        }
+        </div>
+
         <div className="tudo-lanches">
           {informacoes.map((sete, oito) => {
             return <Lanches key={oito}
@@ -101,7 +117,7 @@ function App(){
           })
         }
         </div>
-    </div>
+        </div>
   )
 }
 export default App;
