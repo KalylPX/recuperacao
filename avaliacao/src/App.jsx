@@ -34,8 +34,29 @@ function App(){
       ti: "Combo Big King",
       su: "Um hamburguer com duas carnes bovinas de 57g, pão com gergelim, queijo...",
       pes: "Serve 1 pessoa",
-      preco: "R$ 41,90"
-    }
+      preco: "R$ 41,90",
+    },
+    {
+      ima: "cheddar-duplo.webp",
+      ti: "Combo Cheddar Duplo",
+      su: "Um hamburguer com duas carnes bovinas de 57g, pão preto com gergelim...",
+      pes: "Serve 1 pessoa",
+      preco: "R$ 41,90",
+    },
+    {
+      ima: "cheeseburger-duplo.webp",
+      ti: "Combo Cheeseburger Duplo com Bacon",
+      su: "Um hamburguer com duas carnes bovinas de 57g, pão com gergelim, queijo...",
+      pes: "Serve 1 pessoa",
+      preco: "R$ 36,90",
+    },
+    {
+      ima: "mega-stacker.webp",
+      ti: "Combo Big King",
+      su: "Um hamburguer com duas carnes bovinas de 113g, pão com gergelim, queijo...",
+      pes: "Serve 1 pessoa",
+      preco: "R$ 51,90",
+    },
   ]
 
   return(
